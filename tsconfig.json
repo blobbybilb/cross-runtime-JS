@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    // "lib": ["ESNext"],
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "declaration": true,
+    "outDir": "dist",
+
+    // might be useful:
+    // "moduleResolution": "bundler",
+    // "allowImportingTsExtensions": true,
+    // "verbatimModuleSyntax": true,
+    // "noEmit": true,
+
+    // stricter TS options:
+    "strict": true,
+    "skipLibCheck": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noPropertyAccessFromIndexSignature": true
+  }
+}

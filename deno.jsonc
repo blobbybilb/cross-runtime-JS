@@ -1,0 +1,11 @@
+{
+  "imports": {},
+  "name": "__NAME_HERE__",
+  "version": "0.1.0",
+  "exports": "./index.ts",
+  "unstable": ["sloppy-imports"], // sloppy-imports for compatibility
+  "publish": {
+    "include": ["."],
+    "exclude": [] // might want to add other runtime specific files here
+  }
+}
